@@ -7,7 +7,7 @@
     "dev": "nuxt",
     "stubapi": "json-server https://nuxt-tes.herokuapp.com/db.json",
     "build": "nuxt build",
-    "start": "npm run dev1",
+    "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "yarn lint:js"
