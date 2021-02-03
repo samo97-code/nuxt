@@ -3,7 +3,6 @@ const axios = require('axios')
 const cors = require('cors')
 const app = require('express')()
 app.use(cors())
-const Port = process.env.PORT || 8080
 
 app.use(bodyParser.json())
 app.get('/user', async (req, res) => {

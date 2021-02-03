@@ -14,7 +14,6 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  target: 'static',
 
   axios: {
     // baseURL: 'http://localhost:3000/api'
