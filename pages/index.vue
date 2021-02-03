@@ -23,7 +23,7 @@
           GitHub
         </a>
         <button @click="test">
-          Send
+          Get User
         </button>
       </div>
     </div>
