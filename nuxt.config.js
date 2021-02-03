@@ -16,11 +16,11 @@ export default {
   },
 
   axios: {
-    baseURL: 'http://localhost:3000/api'
+    baseURL: 'https://nuxt-tes.herokuapp.com/api'
   },
 
   serverMiddleware: [
-    { path: "/api", handler: "~/api/index.js" },
+    { path: '/api', handler: '~/api/index.js' }
   ],
 
   // Global CSS: https://go.nuxtjs.dev/config-css
