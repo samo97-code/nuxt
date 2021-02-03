@@ -11,6 +11,4 @@ app.get('/user', async (req, res) => {
   res.json({ user: response.data })
 })
 
-app.listen(Port, () => console.log('Runnig'))
-
 module.exports = app
