@@ -21,7 +21,6 @@ export default {
   },
 
   server: {
-    port: 3000, // default: 3000
     host: 'https://nuxt-tes.herokuapp.com/', // default: localhost,
     timing: false
   },
