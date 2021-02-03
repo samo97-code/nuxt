@@ -4,6 +4,8 @@
       <Logo />
       <h1 class="title">
         {{ userName }}
+        {{ age }}
+        {{ count }}
       </h1>
       <div class="links">
         <a
@@ -34,14 +36,18 @@
 export default {
   data () {
     return {
-      userName: null
+      userName: null,
+      age: null,
+      count: null
     }
   },
   methods: {
     async test () {
       const response = await this.$axios.get('/user')
-      console.log(response.data.user, 9999)
+      console.log(response, 9999)
       this.userName = response.data.user.name
+      this.age = response.data.user.age
+      this.count = response.data.user.count
     }
   }
 }
