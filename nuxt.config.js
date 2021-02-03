@@ -20,10 +20,10 @@ export default {
     baseURL: 'https://nuxt-tes.herokuapp.com/api'
   },
 
-  server: {
-    host: 'https://nuxt-tes.herokuapp.com/', // default: localhost,
-    timing: false
-  },
+  // server: {
+  //   host: 'https://nuxt-tes.herokuapp.com/', // default: localhost,
+  //   timing: false
+  // },
 
   serverMiddleware: [
     { path: '/api', handler: '~/api/index.js' }

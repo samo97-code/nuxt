@@ -6,7 +6,7 @@ app.use(cors())
 
 app.use(bodyParser.json())
 app.get('/user', async (req, res) => {
-  const response = await axios.get('https://nuxt-tes.herokuapp.com/user')
+  const response = await axios.get('http://localhost:8080/user')
   res.json({ user: response.data })
 })
 

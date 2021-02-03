@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev1": "concurrently   \"npm run stubapi\" \"npm run dev\"",
     "dev": "nuxt",
-    "stubapi": "json-server https://nuxt-tes.herokuapp.com/db.json",
+    "stubapi": "json-server --watch db.json --port 8080",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
